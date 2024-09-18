@@ -8,23 +8,28 @@
 		<title>Progress Steps</title>
 	</head>
 	<body>
+		<h1 class="title">Progress Steps</h1>
 		<div class="container">
-			<div class="item">
-				<p class="number">1</p>
-			</div>
-			<div class="item">
-				<p class="number">2</p>
-			</div>
-			<div class="item">
-				<p class="number">3</p>
-			</div>
-			<div class="item">
-				<p class="number">4</p>
+			<div class="progress-container">
+				<div class="progress" id="progress"></div>
+				<div class="circle active">0</div>
+				<div class="circle">10</div>
+				<div class="circle">20</div>
+				<div class="circle">30</div>
+				<div class="circle">40</div>
+				<div class="circle">50</div>
+				<div class="circle">60</div>
+				<div class="circle">70</div>
+				<div class="circle">80</div>
+				<div class="circle">90</div>
+				<div class="circle">100</div>
 			</div>
 		</div>
 		<div class="buttons">
-			<button class="previous" type="button">Anterior</button>
-			<button class="next" type="button">Siguiente</button>
+			<button class="previous" type="button" id="prev" disabled>
+				Anterior
+			</button>
+			<button class="next" type="button" id="next">Siguiente</button>
 		</div>
 		<script src="script.js"></script>
 	</body>
